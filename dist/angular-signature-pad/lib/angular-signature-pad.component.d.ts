@@ -75,5 +75,5 @@ export declare class SignaturePadComponent implements AfterContentInit, OnDestro
     getSignaturePad(): SignaturePad;
     getCanvas(): HTMLCanvasElement;
     static ɵfac: i0.ɵɵFactoryDeclaration<SignaturePadComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<SignaturePadComponent, "signature-pad", never, { "options": "options"; }, { "drawStart": "drawStart"; "drawBeforeUpdate": "drawBeforeUpdate"; "drawAfterUpdate": "drawAfterUpdate"; "drawEnd": "drawEnd"; }, never, never, false, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<SignaturePadComponent, "signature-pad", never, { "options": { "alias": "options"; "required": false; }; }, { "drawStart": "drawStart"; "drawBeforeUpdate": "drawBeforeUpdate"; "drawAfterUpdate": "drawAfterUpdate"; "drawEnd": "drawEnd"; }, never, never, false, never>;
 }
