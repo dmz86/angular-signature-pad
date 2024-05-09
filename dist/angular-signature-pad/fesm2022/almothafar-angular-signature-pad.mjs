@@ -145,13 +145,13 @@ class SignaturePadComponent {
     getCanvas() {
         return this.elementRef.nativeElement.querySelector('canvas');
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: SignaturePadComponent, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.2.12", type: SignaturePadComponent, selector: "signature-pad", inputs: { options: "options" }, outputs: { drawStart: "drawStart", drawBeforeUpdate: "drawBeforeUpdate", drawAfterUpdate: "drawAfterUpdate", drawEnd: "drawEnd" }, ngImport: i0, template: '<canvas class="signature-pad-canvas"></canvas>', isInline: true, styles: [":host{background:#faebd7;display:flex;align-items:center;justify-content:center}:host .signature-pad-canvas{border:1px solid gray}\n"] }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.8", ngImport: i0, type: SignaturePadComponent, deps: [{ token: i0.ElementRef }], target: i0.ɵɵFactoryTarget.Component }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "17.3.8", type: SignaturePadComponent, selector: "signature-pad", inputs: { options: "options" }, outputs: { drawStart: "drawStart", drawBeforeUpdate: "drawBeforeUpdate", drawAfterUpdate: "drawAfterUpdate", drawEnd: "drawEnd" }, ngImport: i0, template: '<canvas class="signature-pad-canvas"></canvas>', isInline: true, styles: [":host{background:#faebd7;display:flex;align-items:center;justify-content:center}:host .signature-pad-canvas{border:1px solid gray}\n"] }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: SignaturePadComponent, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.8", ngImport: i0, type: SignaturePadComponent, decorators: [{
             type: Component,
             args: [{ template: '<canvas class="signature-pad-canvas"></canvas>', selector: 'signature-pad', styles: [":host{background:#faebd7;display:flex;align-items:center;justify-content:center}:host .signature-pad-canvas{border:1px solid gray}\n"] }]
-        }], ctorParameters: function () { return [{ type: i0.ElementRef }]; }, propDecorators: { options: [{
+        }], ctorParameters: () => [{ type: i0.ElementRef }], propDecorators: { options: [{
                 type: Input
             }], drawStart: [{
                 type: Output
@@ -164,11 +164,11 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImpo
             }] } });
 
 class AngularSignaturePadModule {
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: AngularSignaturePadModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
-    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "16.2.12", ngImport: i0, type: AngularSignaturePadModule, declarations: [SignaturePadComponent], exports: [SignaturePadComponent] }); }
-    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: AngularSignaturePadModule }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.3.8", ngImport: i0, type: AngularSignaturePadModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule }); }
+    static { this.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "17.3.8", ngImport: i0, type: AngularSignaturePadModule, declarations: [SignaturePadComponent], exports: [SignaturePadComponent] }); }
+    static { this.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "17.3.8", ngImport: i0, type: AngularSignaturePadModule }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.2.12", ngImport: i0, type: AngularSignaturePadModule, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.3.8", ngImport: i0, type: AngularSignaturePadModule, decorators: [{
             type: NgModule,
             args: [{
                     declarations: [SignaturePadComponent],
