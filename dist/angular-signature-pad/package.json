@@ -1,6 +1,6 @@
 {
   "name": "@almothafar/angular-signature-pad",
-  "version": "5.0.1",
+  "version": "5.0.4",
   "description": "Angular Component wrapper for szimek/signature_pad",
   "repository": {
     "type": "git",
@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/almothafar/angular-signature-pad#readme",
   "peerDependencies": {
-    "@angular/common": ">=12.0.0",
-    "@angular/core": ">=12.0.0"
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0"
   },
   "dependencies": {
-    "signature_pad": "~4.0.7",
+    "signature_pad": "~5.0.0",
     "tslib": "^2.3.0"
   },
   "module": "fesm2022/almothafar-angular-signature-pad.mjs",
