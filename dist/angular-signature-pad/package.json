@@ -1,0 +1,49 @@
+{
+  "name": "@almothafar/angular-signature-pad",
+  "version": "5.0.1",
+  "description": "Angular Component wrapper for szimek/signature_pad",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almothafar/angular-signature-pad.git"
+  },
+  "keywords": [
+    "signature",
+    "sign",
+    "finger",
+    "canvas"
+  ],
+  "author": "Al-Mothafar Al-Hasan <almothafar@gmail.com> (https://almothafar.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/almothafar/angular-signature-pad/issues"
+  },
+  "homepage": "https://github.com/almothafar/angular-signature-pad#readme",
+  "peerDependencies": {
+    "@angular/common": ">=12.0.0",
+    "@angular/core": ">=12.0.0"
+  },
+  "dependencies": {
+    "signature_pad": "~4.0.7",
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/almothafar-angular-signature-pad.mjs",
+  "es2020": "fesm2020/almothafar-angular-signature-pad.mjs",
+  "esm2020": "esm2020/almothafar-angular-signature-pad.mjs",
+  "fesm2020": "fesm2020/almothafar-angular-signature-pad.mjs",
+  "fesm2015": "fesm2015/almothafar-angular-signature-pad.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/almothafar-angular-signature-pad.mjs",
+      "es2020": "./fesm2020/almothafar-angular-signature-pad.mjs",
+      "es2015": "./fesm2015/almothafar-angular-signature-pad.mjs",
+      "node": "./fesm2015/almothafar-angular-signature-pad.mjs",
+      "default": "./fesm2020/almothafar-angular-signature-pad.mjs"
+    }
+  },
+  "sideEffects": false
+}
